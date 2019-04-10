@@ -1,0 +1,144 @@
+ hr {
+height: 3px;
+border: none;
+color: #0000ff;
+background: #0000ff;
+margin: 0; 
+} 
+body{
+   background-image: url(img/bg.jpg); 
+}
+#zag{
+	display:inline;
+}
+#zag h1{
+	font-size:30pt;
+    color:green;
+    text-align:center;
+    transform:bolder;
+    font-family: 'Oswald', sans-serif; 
+}
+#zag img {
+position:absolute; 
+}
+#left {
+	float:left;
+    font-family: 'Oswald', sans-serif; 
+}  
+#left h2{
+	font-size:14pt;
+	margin-top:50px;
+	margin-left:10px;
+}
+#left h2::first-letter{
+	font-family: 'Oswald', sans-serif; 
+    font-size: 2em; 
+    color: blue;
+    } 
+ #left article::first-letter{
+	font-family: 'Oswald', sans-serif; 
+    font-size: 2em; 
+    color: blue;
+    }    
+ #center
+ {
+ 	float:left;
+ 	font-family: 'Oswald', sans-serif;
+    margin-left:60px;
+ }
+#center h2
+{
+    margin-top:50px;
+	font-size:14pt;
+	
+}
+ #center h2::first-letter{
+	font-family: 'Oswald', sans-serif; 
+    font-size: 2em; 
+    color: blue;
+    } 
+ #center article::first-letter{
+	font-family: 'Oswald', sans-serif; 
+    font-size: 2em; 
+    color: blue;
+    }    
+#center p img
+{
+margin-top:67px;
+height:368px;
+width:420px;
+}
+#right{
+    font-family: 'Oswald', sans-serif; 
+    position: relative;
+    
+}
+#right h2
+{
+    margin-top:75px;
+	font-size:14pt;
+	
+}
+ #right h2::first-letter{
+	font-family: 'Oswald', sans-serif; 
+    font-size: 2em; 
+    color: blue;
+    } 
+    #right img
+  {
+   margin-top:67px;
+   height:368px;
+   width:420px;
+  }
+  #right article::first-letter{
+	font-family: 'Oswald', sans-serif; 
+    font-size: 2em; 
+    color:blue;
+  } 
+  #footer   
+  {
+ margin: 40px 0 0 10px;
+  }
+  #footer hr{
+height: 5px;
+border: none;
+color: #0000ff;
+background: #0000ff;
+width: 100%;
+} 
+@media only screen and (max-width: 600px){
+body{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (max-width: 600px){
+body{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 600px){
+body{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 768px){
+body{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 992px){
+body{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 1200px){
+body{
+margin: 0;
+padding: 0;
+}
+}

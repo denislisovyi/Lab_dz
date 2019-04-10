@@ -1,0 +1,135 @@
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin:0;
+  margin-left:20px;
+}
+.collage {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1000px;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  margin: 0px auto;
+  grid-gap: 1px;
+}
+
+.collage__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.collage .item-1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.collage .item-2 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.collage .item-3 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.collage .item-4 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.collage .item-5 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.collage .item-6 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.collage .item-7 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.collage .item-8 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 5;
+}
+@media only screen and (max-width: 600px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (max-width: 600px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 600px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 768px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 992px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 1200px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}

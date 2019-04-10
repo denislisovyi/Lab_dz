@@ -1,0 +1,87 @@
+*{
+	margin:0; 
+}
+.collage{
+text-align: center;
+width: 100%;
+height:100%;
+padding-bottom:0;
+}
+#first{
+width: 100%;
+height: 25%;
+}
+#first div{
+display:inline-block;
+width: 25%;
+height: 100%;
+}
+#first img{
+width: 100%;
+height: 100%;
+}
+#second{
+width: 100%;
+height: 25%;
+}
+#second div{
+display:inline-block;
+width: 25%;
+height: 100%;
+}
+#second img
+{
+ width: 100%;
+height: 100%;;
+ }
+#third{
+width: 100%;
+height: 25%;
+}
+#third div{
+display:inline-block;
+width: 25%;
+height: 100%;
+}
+#third img
+{
+ width: 100%;
+height: 100%;;
+}
+
+@media only screen and (max-width: 600px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (max-width: 600px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 600px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 768px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 992px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (min-width: 1200px){
+.collage{
+margin: 0;
+padding: 0;
+}
+}
